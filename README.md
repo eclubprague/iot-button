@@ -2,7 +2,7 @@
 eClub Summer Camp 2016 - Capacitive User Interface. 
 
 Sensor_module.ino contains source code for Capacitive User Interface - ESP8266 powered control device, consisting of ambient and proximity VCNL4010 sensor and custom made capacitive board with slider and buttons (based on CAP1208 chip).
-It controls the light module using MQTT broker and implements simple capacitive slider filtering.
+It controls the light module using MQTT broker and implements simple capacitive slider filtering. Ambient light sensor is used for automatic illumination adjustment and proximity sensor to reduce power requirements.
 
 Sensor Module pinout:
 
