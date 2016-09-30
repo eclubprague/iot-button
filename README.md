@@ -7,11 +7,11 @@ Lamp_module.ino contains source code for custom made prototype of smart light - 
 
 Sensor Module pinout:
 
-I2C bus (to connect VCNL4010 and CAP1208 in series)
+- I2C bus (to connect VCNL4010 and CAP1208 in series)
 
-- GPIO4 --> SCL
+- - GPIO4 --> SCL
   
-- GPIO5 --> SDA
+- - GPIO5 --> SDA
   
 - GND should be common for all three components
   
