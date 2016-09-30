@@ -9,14 +9,14 @@ Sensor Module pinout:
 
 I2C bus (to connect VCNL4010 and CAP1208 in series)
 
-  GPIO4 --> SCL
+- GPIO4 --> SCL
   
-  GPIO5 --> SDA
+- GPIO5 --> SDA
   
-  GND should be common for all three components
+- GND should be common for all three components
   
-  ESP8266 is only 3.3V tolerant!
+- ESP8266 is only 3.3V tolerant!
   
 Lamp Module pinout
 
-  pwm output on GPIO13
+- pwm output on GPIO13
