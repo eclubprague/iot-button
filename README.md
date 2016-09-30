@@ -9,9 +9,9 @@ Sensor Module pinout:
 
 - I2C bus (to connect VCNL4010 and CAP1208 in series)
 
-- GPIO4 --> SCL
+  - GPIO4 --> SCL
   
-- GPIO5 --> SDA
+  - GPIO5 --> SDA
   
 - GND should be common for all three components
   
